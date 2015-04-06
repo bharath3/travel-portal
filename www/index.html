@@ -1,54 +1,25 @@
 <html>
-<head>
-<style type="text/css">
-body {
-	background-color: #CCC;
-	margin:80px 80px 100px 100px;
-}
-div#fixedheader {
-	position:fixed;
-	top:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:20px;
-	height:10px;
-}
-div#fixedfooter {
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:8px;
-}
-</style>
-
-<style>
-
-.button-warning {
-            background: rgb(204, 204, 204); /* this is an orange */
-        }
-
-html, body {
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-</style>
-<title>Sterlite Travel Portal</title>
-</head>
-<body background="http://115.119.117.86:8208//home/muraai/CSS/images/108444920.png">
- <div id="fixedheader">Sterlite Travel-Portal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a   href="http://115.119.117.86:8208/home/muraai/newlogin.htm" style="text-decoration:none;color:rgb(204, 204, 204)">Login</a></div>
- 
-
-
-
- 
-<div id="fixedfooter">Powered by muraai information technology</div>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>PhoneGap</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
 </html>
-
